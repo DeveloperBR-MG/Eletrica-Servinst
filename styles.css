@@ -315,6 +315,9 @@ p {
   object-fit: contain;
   border-radius: 20px;
 }
+a i:hover {
+  color: #3b5998;
+}
 
 .hero-image::after {
   content: "";
