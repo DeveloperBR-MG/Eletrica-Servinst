@@ -260,6 +260,18 @@ p {
   color: var(--muted);
 }
 
+.footer-content a {
+  color: inherit;
+  transition: color 0.25s ease;
+}
+
+.footer-content a:hover i.fa-facebook,
+.footer-content a:focus i.fa-facebook {
+  color: #1877f2;
+}
+
+}
+
 @media (max-width: 940px) {
   .header-content,
   .split,
